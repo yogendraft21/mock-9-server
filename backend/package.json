@@ -1,4 +1,15 @@
 {
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
@@ -8,16 +19,5 @@
     "mongoose": "^7.0.3",
     "nodemailer": "^6.9.1",
     "socket.io": "^4.6.1"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
-  "name": "backend",
-  "version": "1.0.0",
-  "main": "server.js",
-  "devDependencies": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }
