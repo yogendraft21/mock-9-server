@@ -1,16 +1,14 @@
 {
-  "name": "mock-9-server",
+  "name": "backend",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
