@@ -38,8 +38,8 @@ UserRouter.post("/register",async(req,res)=>{
             secure: false,
             requireTLS: true,
             auth: {
-                user: 'yogendra311204@gmail.com',
-                pass: 'leuxgpaczkmsincn'
+                user: YOUR_EMAIL,
+                pass: PASSWORD
             }
         });
     
